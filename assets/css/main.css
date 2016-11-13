@@ -6,7 +6,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-#ck-button {
+.ck-button {
     margin:4px;
     background-color:;
     border-radius:4px;
@@ -15,27 +15,26 @@
     float:left;
 }
 
-#ck-button:hover {
+.ck-button:hover {
     background:red;
 }
 
-#ck-button label {
+.ck-button label {
     float:left;
     width:4.0em;
 }
-
-#ck-button label span {
+.ck-button label span {
     text-align:center;
     padding:3px 0px;
     display:block;
 }
 
-#ck-button label input {
+.ck-button label input {
     position:absolute;
     top:-20px;
 }
 
-#ck-button input:checked + span {
+.ck-button input:checked + span {
     background-color:#4c5c96;
     color:#fff;
 }
