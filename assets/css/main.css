@@ -33,7 +33,10 @@
     position:absolute;
     top:-20px;
 }
-
+input[type=checkbox]:checked + span {
+background-color:#4c5c96;
+    color:#fff;
+}
 .ck-button input:checked + span {
     background-color:#4c5c96;
     color:#fff;
