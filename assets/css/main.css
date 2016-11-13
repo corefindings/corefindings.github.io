@@ -6,41 +6,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-.ck-button {
-    margin:4px;
-    background-color:;
-    border-radius:4px;
-    border:1px solid #D0D0D0;
-    overflow:auto;
-    float:left;
-}
 
-.ck-button:hover {
-    background:red;
-}
-
-.ck-button label {
-    float:left;
-    width:4.0em;
-}
-.ck-button label span {
-    text-align:center;
-    padding:3px 0px;
-    display:block;
-}
-
-.ck-button label input {
-    position:absolute;
-    top:-20px;
-}
 input[type=checkbox]:checked + label {
 background-color:#4c5c96;
     color:#fff;
 }
-.ck-button input:checked + label {
-    background-color:#4c5c96;
-    color:#fff;
-}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
