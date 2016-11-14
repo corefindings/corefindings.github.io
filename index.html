@@ -137,21 +137,22 @@
 							<form method="post" action="https://formspree.io/michael@corefindings.com">
 								<div class="field">
 									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
+									<input type="text" name="name" id="name" required/>
 								</div>
 								<div class="field">
 									<label for="email">Email</label>
-									<input type="email" name="email" id="email" />
+									<input type="email" name="email" id="email" required />
 								</div>
 								<div class="field">
 									<label for="games">Available Games</label>
 									
+									<input type="checkbox" id="Kings" name="Kings" value=""><label for="">@Sacramento Kings on 01/08/17 SOLD OUT</label><br><br>
 									<input type="checkbox" id="Portland" name="Portland" value="Portland"><label for="Portland">@Portland Trail Blazers on 01/29/17</label><br><br>
-									
 									<input type="checkbox" id="LA" name="LA" value="LA"><label for="LA">@LA Clippers on 02/02/17</label><br><br>
-									
 									<input type="checkbox" id="Denver" name="Denver" value="Denver"><label for="Denver">@Denver Nuggets on 02/13/17</label><br><br>
-									
+								<div class="field">
+									<label for="other">Other Games of Interest</label>
+									<input type="text" name="other" id="other" />	
 									
 								</div>
 								<ul class="actions">
@@ -159,7 +160,7 @@
 									<input type="hidden" name="_next" value="corefindings.github.io" /></li>
 								</ul>
 							</form>
-							<ul class="contact">
+							<!-- <ul class="contact">
 								<li class="fa-home">
 									Game Time Travel<br />
 								</li>
@@ -168,9 +169,9 @@
 								<li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
 								<li class="fa-facebook"><a href="#">facebook.com/untitled-tld</a></li>
 								<li class="fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
-							</ul>
+							</ul> -->
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Game Time Travel All rights reserved.</li>
 							</ul>
 						</div>
 					</section>
