@@ -3087,7 +3087,7 @@ background-color:#4c5c96;
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			
-			background-color: rgba(76,92,150, 0.75);
+			background-color: rgba(76,92,150, 1);
 		}
 
 		#banner p {
@@ -3114,7 +3114,7 @@ background-color:#4c5c96;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
-			background-color: rgba(76,92,150, 0.75);
+			background-color: rgba(76,92,150, 1);
 		}
 
 		@media screen and (max-width: 2500px) {
